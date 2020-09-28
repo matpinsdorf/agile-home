@@ -22,7 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -38,6 +38,11 @@
                 {
                   "replace": "src/environments/environment.ts",
                   "with": "src/environments/environment.prod.ts"
+                }
+                ,
+                {
+                  "replace": "node_modules/agile60/src/app/main/extra/extra.module.ts",
+                  "with": "src/app/extra/extra.module.ts"
                 }
               ],
               "optimization": true,
@@ -60,6 +65,18 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "hml":{
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                },
+                {
+                  "replace": "node_modules/agile60/src/app/main/extra/extra.module.ts",
+                  "with": "src/app/extra/extra.module.ts"
+                }
+              ]
             }
           }
         },
@@ -71,6 +88,9 @@
           "configurations": {
             "production": {
               "browserTarget": "agile-home:build:production"
+            },
+            "hml":{
+              "browserTarget": "agile-home:build:hml"
             }
           }
         },

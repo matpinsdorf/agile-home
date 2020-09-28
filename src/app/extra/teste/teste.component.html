@@ -1,0 +1,19 @@
+
+<div *ngIf='grpCpAux'>
+
+  <agile-button
+    [listaControle]="grpCpAux"
+    [controle]="grpCpAux.getItem('bnt')"
+    (click)="ProcessaEvento('onClick', 'onClick', 'Atualizar')"
+    >
+  </agile-button>
+
+  <agile-grid
+    [listaControle]="grpCpAux"
+    [controle]="grpCpAux.getItem('grid')"
+    Altura="300px"
+    style="width: 100.0%; max-width: 100.0%; cursor: context-menu;">
+</agile-grid>
+
+
+</div>

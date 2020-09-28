@@ -9,15 +9,26 @@
     "experimentalDecorators": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "types" : ["node"],
     "importHelpers": true,
     "target": "es2015",
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+
+    "paths": {
+      "rxjs": [
+        "node_modules/rxjs"
+      ],
+      "rxjs/*": [
+        "node_modules/rxjs/*"
+      ]
+   },
+
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
+    "strictInjectionParameters": true,
   }
 }

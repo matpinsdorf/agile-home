@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+// Import Fuse core libraryS
+@import "../node_modules/agile60/src/@fuse/scss/core";
+
+// Import app.theme.scss
+@import "../node_modules/agile60/src/app/app.theme";
+
+// Import app.agile.scss
+@import "../node_modules/agile60/src/app/app.agile";
+
+
+@import "~igniteui-angular/lib/core/styles/themes/index";
+// Uncomment the following lines if you want to add a custom palette:
+// $primary: #731963 !default;
+// $secondary: #ce5712 !default;
+// $app-palette: igx-palette($primary, $secondary);
+
+$agile-palette: igx-palette($primary: #0070D2, $secondary: orange) !default;
+
+@include igx-core();
+@include igx-theme($agile-palette);
+//@include igx-light-theme($default-palette);
+//@include igx-fluent-theme($fluent-word-palette);
+//@include igx-fluent-theme($fluent-excel-palette);
+
+
+@import '~angular-tree-component/dist/angular-tree-component.css';
+

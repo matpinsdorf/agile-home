@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'agile-home'`, () => {
+  it(`should have as title 'agile-teste-new'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('agile-home');
+    expect(app.title).toEqual('agile-teste-new');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('agile-home app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('agile-teste-new app is running!');
   });
 });
