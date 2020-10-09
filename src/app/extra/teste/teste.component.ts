@@ -1,8 +1,8 @@
 import { Component, OnInit, Injector, ViewChild, DoCheck, ViewEncapsulation } from '@angular/core';
-import { ComponenteRefService } from 'node_modules/agile60/src/app/main/Core/componente-ref.service';
-import { ControlLibService } from 'node_modules/agile60/src/app/main/ControlLib/controllib.service';
+import { ComponenteRefService } from 'node_modules/@tqssolucoes/agile-lib/src/app/main/Core/componente-ref.service';
+import { ControlLibService } from 'node_modules/@tqssolucoes/agile-lib/src/app/main/ControlLib/controllib.service';
 import { MatDialog } from '@angular/material/dialog';
-import { FrmobjectCadastroComponent } from 'node_modules/agile60/src/app/main/Cadastro/frmobject-cadastro/frmobject-cadastro.component';
+import { FrmobjectCadastroComponent } from 'node_modules/@tqssolucoes/agile-lib/src/app/main/Cadastro/frmobject-cadastro/frmobject-cadastro.component';
 
 @Component({
   selector: 'app-teste',

@@ -4,10 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { TesteComponent } from 'src/app/extra/teste/teste.component';
 import { AppComponent } from './app.component';
-import { Agile60Module } from '../../node_modules/agile60/src/app/app.module';
-import { AmbienteModule } from '../../node_modules/agile60/src/app/main/Ambiente/ambiente.module';
-import { ControllibModule } from 'node_modules/agile60/src/app/main/ControlLib/controllib.module';
-import { ControllibIgniteModule } from 'node_modules/agile60/src/app/main/ControlLib-Ignite/controllib-ignite.module';
+import { Agile60Module } from '../../node_modules/@tqssolucoes/agile-lib/src/app/app.module';
+import { AmbienteModule } from '../../node_modules/@tqssolucoes/agile-lib/src/app/main/Ambiente/ambiente.module';
+import { ControllibModule } from 'node_modules/@tqssolucoes/agile-lib/src/app/main/ControlLib/controllib.module';
+import { ControllibIgniteModule } from 'node_modules/@tqssolucoes/agile-lib/src/app/main/ControlLib-Ignite/controllib-ignite.module';
 
 
 

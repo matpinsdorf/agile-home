@@ -41,7 +41,7 @@
                 }
                 ,
                 {
-                  "replace": "node_modules/agile60/src/app/main/extra/extra.module.ts",
+                  "replace": "node_modules/@tqssolucoes/agile-lib/src/app/main/extra/extra.module.ts",
                   "with": "src/app/extra/extra.module.ts"
                 }
               ],
@@ -73,7 +73,7 @@
                   "with": "src/environments/environment.prod.ts"
                 },
                 {
-                  "replace": "node_modules/agile60/src/app/main/extra/extra.module.ts",
+                  "replace": "node_modules/@tqssolucoes/agile-lib/src/app/main/extra/extra.module.ts",
                   "with": "src/app/extra/extra.module.ts"
                 }
               ]

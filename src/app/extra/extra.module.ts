@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { TesteComponent } from 'src/app/extra/teste/teste.component';
-import { ControllibModule } from 'node_modules/agile60/src/app/main/ControlLib/controllib.module';
-import { ControllibIgniteModule } from 'node_modules/agile60/src/app/main/ControlLib-Ignite/controllib-ignite.module';
+import { ControllibModule } from 'node_modules/@tqssolucoes/agile-lib/src/app/main/ControlLib/controllib.module';
+import { ControllibIgniteModule } from 'node_modules/@tqssolucoes/agile-lib/src/app/main/ControlLib-Ignite/controllib-ignite.module';
 
 
 
